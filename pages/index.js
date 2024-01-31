@@ -7,7 +7,7 @@ const HomePage = ({ products }) => (
     {
       products.map(({ id, title }) => (
         <li key={id}>
-          <Link href={`/${id}`}>
+          <Link href={`/products/${id}`}>
             {title}
           </Link>
         </li>
